@@ -22,8 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="IniFileParser.py" />
     <Compile Include="NexonCareerCrawling.py" />
     <Compile Include="PythonApplication1.py" />
+    <Compile Include="TelegramMessageSender.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -37,6 +39,7 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="config.ini" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
