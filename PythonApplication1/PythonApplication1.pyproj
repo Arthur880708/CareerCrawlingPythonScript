@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="IniFileParser.py" />
+    <Compile Include="MsSqlManager.py" />
     <Compile Include="NexonCareerCrawling.py" />
     <Compile Include="PythonApplication1.py" />
     <Compile Include="TelegramMessageSender.py" />
