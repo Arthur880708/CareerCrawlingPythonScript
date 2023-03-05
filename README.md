@@ -10,10 +10,11 @@
 - [X] Telegram API Interworking 
 - [ ] Naver Career Crawling
 - [ ] Kakao Career Crawling
+- [ ] ìš°ì•„í•œ í˜•ì œë“¤ Crawling
 
 ---
 
-# (Tips) Telegram chat_id¾ò´Â ¹ı
+# (Tips) Telegram chat_idì–»ëŠ” ë²•
 
 * https://api.telegram.org/bot{token}/getUpdates?offset=0&limit=100&timeout=0
-	* ¸¸¾à 404¿¡·¯°¡ ¾È³ª´Âµ¥ chat_id¸¦ ¸ø¹Ş¾Æ¿Â´Ù¸é ¾Æ¹« ¸Ş½ÃÁö³ª º¸³»°í ´Ù½Ã ÇØº¼ °Í.
+	* ë§Œì•½ 404ì—ëŸ¬ê°€ ì•ˆë‚˜ëŠ”ë° chat_idë¥¼ ëª»ë°›ì•„ì˜¨ë‹¤ë©´ ì•„ë¬´ ë©”ì‹œì§€ë‚˜ ë³´ë‚´ê³  ë‹¤ì‹œ í•´ë³¼ ê²ƒ.
